@@ -1,0 +1,14 @@
+idf_component_register(
+    SRCS
+        "ic_back.c"
+        "courier_24.c"
+        "courier_16.c"
+        "app_main.c"
+        "ring_buf.c"
+        "term_app.c"
+        "term_app_wifi_list.c"
+        "term_app_login.c"
+        "term_app_chess.c"
+        "term.c"
+        "term_ssh.c"
+        "ps2.c")

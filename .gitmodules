@@ -1,0 +1,6 @@
+[submodule "components/eventlooper"]
+	path = components/eventlooper
+	url = https://github.com/iDalink/eventlooper.git
+[submodule "components/libssh2"]
+	path = components/libssh2
+	url = https://github.com/libssh2/libssh2.git

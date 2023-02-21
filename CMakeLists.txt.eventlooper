@@ -1,0 +1,15 @@
+set(component_include 
+	. 
+	)
+
+set(component_srcs
+	el_event.c
+	el_looper.c
+	el_timer.c
+	el_port_esp32.c
+	)
+
+idf_component_register(SRCS "${component_srcs}"
+                       INCLUDE_DIRS "${component_include}")
+
+target_compile_options(${COMPONENT_TARGET} PRIVATE -Wno-maybe-uninitialized)
